@@ -28,7 +28,7 @@ REQUIRED = [
 ]
 
 PLACEHOLDER = re.compile(r"TODO|FIXME|NotImplementedException", re.I)
-NS = re.compile(r"namespace NRCU\.")
+NS = re.compile(r"namespace NousRacers")
 
 
 def main() -> int:
@@ -64,7 +64,7 @@ def main() -> int:
         if PLACEHOLDER.search(text):
             problems.append(f"{script.relative_to(ROOT)}: placeholder left in source")
         if not NS.search(text):
-            problems.append(f"{script.relative_to(ROOT)}: missing NRCU namespace")
+            problems.append(f"{script.relative_to(ROOT)}: missing Nous Research Cinematic Universe namespace")
 
     print(f"scripts: {len(list((ROOT / 'Assets' / 'Scripts').rglob('*.cs')))}")
     for problem in problems:

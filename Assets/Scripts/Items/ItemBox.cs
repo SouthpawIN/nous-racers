@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     /// <summary>A row of boxes; each respawns a few seconds after being taken.</summary>
     public class ItemBox : MonoBehaviour

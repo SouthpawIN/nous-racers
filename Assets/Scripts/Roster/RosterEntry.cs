@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     [Serializable]
     public class RosterEntry
@@ -36,7 +36,7 @@ namespace NRCU.Kart
         public float SteerAngle => 20f + handling * 1.6f;
     }
 
-    [CreateAssetMenu(menuName = "NRCU/Roster")]
+    [CreateAssetMenu(menuName = "Nous Research Cinematic Universe/Roster")]
     public class RosterAsset : ScriptableObject
     {
         public RosterEntry[] characters;

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     /// <summary>
     /// Arcade kart: grip-based turning, hop-drift with three mini-turbo tiers.

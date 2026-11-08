@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     /// <summary>Rank by laps cleared, then by progress through the current lap.</summary>
     public class PositionTracker : MonoBehaviour

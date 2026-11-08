@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     /// <summary>One gate. Laps only count when every gate is hit in order.</summary>
     public class Checkpoint : MonoBehaviour

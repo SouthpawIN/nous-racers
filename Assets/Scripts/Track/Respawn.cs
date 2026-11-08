@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NRCU.Kart
+namespace NousRacers
 {
     /// <summary>Returns a kart that fell off to the last checkpoint it cleared.</summary>
     public class Respawn : MonoBehaviour

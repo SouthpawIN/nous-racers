@@ -1,4 +1,4 @@
-# NRCU Kart
+# Nous Racers
 
 A kart racer built on the [Nous Research Cinematic Universe](https://github.com/123mikeyd/Nous_Research_Cinematic_Universe)
 cast. Arcade handling in the Mario Kart 8 / Crash Team Racing register: grip-based
@@ -24,10 +24,10 @@ Unity **6000.0.32f1** (6 LTS), URP, new Input System.
 | Race | `Assets/Scripts/Race/RaceManager.cs` | countdown, laps, finish, cup points 15/12/10/8/6/4/2/1 |
 | Standing | `Assets/Scripts/Race/PositionTracker.cs` | rank by lap, gate, then distance |
 | Items | `Assets/Scripts/Items/ItemBox.cs` | rows with respawn; items are data |
-| Cast | `Assets/Data/Roster/roster.json` | **35 characters** derived from the NRCU bible |
+| Cast | `Assets/Data/Roster/roster.json` | **35 characters** derived from the Nous Research Cinematic Universe bible |
 
 The roster is generated, not hand-written — `bots/kart-racer/scripts/roster.py` in
-[bot-wiki](https://github.com/SouthpawIN/bot-wiki) rebuilds it from the NRCU
+[bot-wiki](https://github.com/SouthpawIN/bot-wiki) rebuilds it from the Nous Research Cinematic Universe
 character pages. Every entry carries the reason it got its weight class
 (`source_note`) and a credit line, because uncredited art does not ship.
 
@@ -41,5 +41,5 @@ character pages. Every entry carries the reason it got its weight class
 
 ## Credits
 
-Characters and art belong to their NRCU creators — see `CREDITS.md` upstream and
+Characters and art belong to their Nous Research Cinematic Universe creators — see `CREDITS.md` upstream and
 each roster entry's `credit`. Turbo Fit / Sovthpaw is Chris (sovthpaw).
